@@ -1,8 +1,5 @@
 package CatalystX::DebugFilter;
-{
-  $CatalystX::DebugFilter::VERSION = '0.11';
-}
-
+$CatalystX::DebugFilter::VERSION = '0.12';
 # ABSTRACT: Provides configurable filtering of data that is logged to the debug logs (and error screen)
 use Moose::Role;
 use namespace::autoclean;
@@ -171,13 +168,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 CatalystX::DebugFilter - Provides configurable filtering of data that is logged to the debug logs (and error screen)
 
 =head1 VERSION
 
-version 0.11
+version 0.12
 
 =head1 SYNOPSIS
 
@@ -327,7 +326,7 @@ Brian Phillips <bphillips@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Brian Phillips.
+This software is copyright (c) 2015 by Brian Phillips.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
