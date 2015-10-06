@@ -18,7 +18,7 @@ my %module_build_args = (
     "Brian Phillips <bphillips\@cpan.org>"
   ],
   "dist_name" => "CatalystX-DebugFilter",
-  "dist_version" => "0.12",
+  "dist_version" => "0.13",
   "license" => "perl",
   "module_name" => "CatalystX::DebugFilter",
   "recommends" => {},
